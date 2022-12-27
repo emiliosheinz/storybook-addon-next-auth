@@ -1,3 +1,15 @@
+# v0.0.3 (Tue Dec 27 2022)
+
+#### ⚠️ Pushed to `main`
+
+- docs: :memo: updates storybook install documentation ([@emiliosheinz](https://github.com/emiliosheinz))
+
+#### Authors: 1
+
+- Emilio Schaedler Heinzmann ([@emiliosheinz](https://github.com/emiliosheinz))
+
+---
+
 # v0.0.2 (Tue Dec 27 2022)
 
 #### ⚠️ Pushed to `main`
