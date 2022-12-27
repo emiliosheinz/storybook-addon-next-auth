@@ -34,7 +34,7 @@ Update `.storybook/main.js` and append to your list of addons:
 ```js
 // .storybook/main.js
 module.exports = {
-  addons: ['@emiliosheinz/storybook-addon-next-auth']
+  addons: ['storybook-addon-next-auth']
 }
 ```
 
