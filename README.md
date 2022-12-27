@@ -4,7 +4,7 @@
 </p>
 <br>
 
-> Respository created to learn more abount Storybook Addons
+> Respository created to learn more about Storybook Addons
 
 ## Storybook
 
