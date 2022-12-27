@@ -4,6 +4,7 @@
 </p>
 <br>
 
+> Respository created to learn more abount Storybook Addons
 
 ## Storybook
 
@@ -18,8 +19,6 @@ module.exports = {
   addons: ['storybook-addon-next-auth']
 }
 ```
-
-> Respository created to learn more abount Storybook Addons
 
 ### Use toolbar menu
 
