@@ -10,17 +10,17 @@ Install this library by adding it to your devDependencies:
 
 yarn:
 ```bash
-yarn install --dev @emiliosheinz/storybook-addon-next-auth
+yarn install --dev storybook-addon-next-auth
 ```
 
 npm:
 ```bash
-npm install --save-dev @emiliosheinz/storybook-addon-next-auth
+npm install --save-dev storybook-addon-next-auth
 ```
 
 pnpm:
 ```bash
-pnpm add --save-dev @emiliosheinz/storybook-addon-next-auth
+pnpm add --save-dev storybook-addon-next-auth
 ```
 
 
