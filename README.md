@@ -66,16 +66,6 @@ export const MyStory = (props) => {
   ...
 ```
 
-## Customize session auth states
-
-This component brings a default set of auth states: `unknown`, `loading`, `unauthenticated` and `authenticated`.
-
-⏱ Coming Soon
-
-## Contributing
-
-⏱ Coming Soon
-
 ## Author & Credits
 
 Author: [Emilio Schaedler Heinzmann](https://github.com/emiliosheinz)
