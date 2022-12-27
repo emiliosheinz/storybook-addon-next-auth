@@ -4,25 +4,6 @@
 </p>
 <br>
 
-## Getting Started
-
-Install this library by adding it to your devDependencies:
-
-yarn:
-```bash
-yarn install --dev storybook-addon-next-auth
-```
-
-npm:
-```bash
-npm install --save-dev storybook-addon-next-auth
-```
-
-pnpm:
-```bash
-pnpm add --save-dev storybook-addon-next-auth
-```
-
 
 ## Storybook
 
@@ -38,6 +19,7 @@ module.exports = {
 }
 ```
 
+> Respository created to learn more abount Storybook Addons
 
 ### Use toolbar menu
 
