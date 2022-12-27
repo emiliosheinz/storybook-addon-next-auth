@@ -54,6 +54,7 @@
     "boxen": "^5.0.1",
     "concurrently": "^6.2.0",
     "dedent": "^0.7.0",
+    "next-auth": "^4.18.7",
     "prettier": "^2.3.1",
     "prop-types": "^15.7.2",
     "react": "^17.0.1",
@@ -68,6 +69,7 @@
     "@storybook/components": "^6.5.8",
     "@storybook/core-events": "^6.5.8",
     "@storybook/theming": "^6.5.8",
+    "next-auth": "^4.0.0",
     "react": "^16.8.0 || ^17.0.0",
     "react-dom": "^16.8.0 || ^17.0.0 || ^18.0.0"
   },
@@ -90,7 +92,6 @@
     "icon": "https://camo.githubusercontent.com/7500b9cc1d0652febaab82b3a294b3898deb63bcfc23693adcc9c1236c3b9d5b/68747470733a2f2f6e6578742d617574682e6a732e6f72672f696d672f6c6f676f2f6c6f676f2d736d2e706e67"
   },
   "dependencies": {
-    "@faker-js/faker": "7.6.0",
-    "next-auth": "4.18.7"
+    "@faker-js/faker": "7.6.0"
   }
 }
