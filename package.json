@@ -1,6 +1,6 @@
 {
   "name": "storybook-addon-next-auth",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Use NextAuth.js in your Storybook stories",
   "keywords": [
     "Next Auth",
