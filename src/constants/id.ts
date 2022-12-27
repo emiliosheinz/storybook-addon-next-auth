@@ -1,0 +1,1 @@
+export const ADDON_ID = "STORYBOOK_ADDON_NEXT_AUTH";
