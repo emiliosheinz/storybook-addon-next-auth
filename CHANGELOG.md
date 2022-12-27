@@ -1,3 +1,16 @@
+# v0.0.4 (Tue Dec 27 2022)
+
+#### ⚠️ Pushed to `main`
+
+- Merge branch 'main' of https://github.com/emiliosheinz/storybook-addon-next-auth ([@emiliosheinz](https://github.com/emiliosheinz))
+- refactor: :recycle: adds next auth as a peer dependencie ([@emiliosheinz](https://github.com/emiliosheinz))
+
+#### Authors: 1
+
+- Emilio Schaedler Heinzmann ([@emiliosheinz](https://github.com/emiliosheinz))
+
+---
+
 # v0.0.3 (Tue Dec 27 2022)
 
 #### ⚠️ Pushed to `main`
