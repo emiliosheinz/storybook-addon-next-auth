@@ -1,6 +1,6 @@
 import { StorybookConfig } from "@storybook/nextjs";
 
-const config : StorybookConfig = {
+const config: StorybookConfig = {
   stories: [
     "../stories/**/*.stories.mdx",
     "../stories/**/*.stories.@(js|jsx|ts|tsx)",
@@ -9,7 +9,7 @@ const config : StorybookConfig = {
     name: "@storybook/nextjs",
     options: {}
   },
-  addons: [/*"../preset.js", */"@storybook/addon-essentials"],
+  addons: ["../preset", "@storybook/addon-essentials"],
 };
 
 export default config;
