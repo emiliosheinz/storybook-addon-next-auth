@@ -1,15 +1,17 @@
 import { SessionContext as NextSessionContext } from "next-auth/react";
-import type { DecoratorFunction } from "@storybook/addons";
+import type { DecoratorFunction, Renderer, PartialStoryFn as StoryFunction, StoryContext } from "@storybook/types";
 import { useMemo } from "react";
 import React from "react";
 import { AuthState, AUTH_STATES } from "../constants/auth-state";
 
-const SessionContext: React.FC<{ session: AuthState }> = ({
-  session,
-  children,
-}) => {
+type SessionContextProps = {
+  children: any;
+  session: AuthState | undefined;
+}
+
+const SessionContext = ({ session, children }: SessionContextProps) => {
   const value = useMemo((): AuthState => {
-    return session ? session : { data: undefined, status: "unauthenticated" };
+    return session ? session : { data: null, status: "unauthenticated" };
   }, [session]);
 
   return (
@@ -19,7 +21,7 @@ const SessionContext: React.FC<{ session: AuthState }> = ({
   );
 };
 
-export const withNextAuth: DecoratorFunction = (StoryFn, context) => {
+export const withNextAuth: DecoratorFunction = (StoryFn: StoryFunction<Renderer>, context: StoryContext<Renderer>) => {
   const session = AUTH_STATES[context.globals.authState]?.session;
 
   return <SessionContext session={session}>{StoryFn()}</SessionContext>;

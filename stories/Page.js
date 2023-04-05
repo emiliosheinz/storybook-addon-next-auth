@@ -3,7 +3,7 @@ import { useSession } from "next-auth/react";
 
 import "./page.css";
 
-export const Page = () => {
+const Page = () => {
   const session = useSession();
 
   return (
@@ -15,3 +15,5 @@ export const Page = () => {
     </article>
   );
 };
+
+export default Page;
